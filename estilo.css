@@ -1,0 +1,211 @@
+/*
+    @author: Gabriel Lopes
+    @version 0.1
+*/
+
+/*==========================     LAYOUT     ==========================*/
+/*outro projeto*/
+.marcador{
+    background: #fe9d9d;
+    border: 1px solid #f94646;
+    
+}
+.marcador2{
+    background: #5bf946;
+    border: 1px solid #36ae26;
+    
+}
+            /*-------------------Spotify----------------*/
+html,body, .capa{
+    height:100%;
+    overflow: auto;  
+}
+
+body{
+    background: url('Spotify/imagens/capa.png'),
+                url('Spotify/imagens/ruido.png'),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    /*background fica parado, não rola junto com a página*/
+    background-attachment: fixed;
+    font-family: Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
+    
+}
+
+
+
+/*Barra de navegação*/
+
+.img-logo{
+    height: 40px;
+    width: 132px;
+    display: block;
+    /*svg é um formato escalável, que se adapta a varios dispositivos*/
+    background: url('Spotify/imagens/spotify.svg') no-repeat;
+    /*contain define que a imagem terá o mesmo tamanho da classe*/
+    background-size: contain;
+    color: transparent;
+    border: none;
+}
+
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0,0,0,0.6);
+    border-bottom:none;
+}
+.navbar-brand{  
+    padding: 5px 15px;
+    
+}
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, footer .nav a{
+    color: white;
+}
+.navbar-inverse .navbar-nav>li>a:hover, footer .nav a:hover{
+    color: #9bf0e1;
+    background: none;
+}
+
+/* -- Capa principal --*/
+.capa{
+    display:table;
+    width:100%;
+}
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*Botões capa principal*/
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+
+
+    text-transform: uppercase;
+    transition: background 0.25s, color 0.25s;
+}
+
+.btn-roxo{
+    background: #7c25f8;
+}
+.btn-roxo:hover{
+    background-color: #6207e3;
+    color: #FFFFFF;
+}
+
+.btn-branco{
+    border:2px solid white;
+}
+.btn-branco:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+/*Conteúdo*/
+#serviços{
+    background-color: #FFFFFF;
+    padding:20px 0px;
+}
+.albuns{
+    padding:10px 0px;
+}
+
+/*Recursos*/
+#recursos{
+    padding:20px 0px;
+    color: white;
+}
+.rotacionar{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /*IE 9*/
+    -webkit-transform: rotate(30deg); /*Chrome, Safari, Opera*/
+    padding-left: 80px;
+}
+
+/*Rodapé*/
+footer{
+    background: #000000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+.item-rede-social{
+    float: right;
+}
+
+
+
+/*==========================     TIPOGRAFIA     ==========================*/
+h1{
+    font-size: 100px;
+    font-weight: 700;
+    /*diminuir o espaçamento das letras*/
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    
+}
+h3{
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+#serviços h2,#serviços h3{
+    color: #7c25f8;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+#rodapé h4{
+    color: #919496;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/*==========================     MEDIA QUERIES     ==========================*/
+/*Dispositivos XS*/
+@media screen and (max-width: 767px){
+    h1{
+        font-size: 50px;
+    }
+    .btn-custom{
+        margin: 10px 50px;
+    }
+}
+
+/*Dispositivos SM*/
+@media screen and (min-width:768px){
+    h1{
+        font-size: 70px;
+    }
+}
+
+/*Dispositivos MD*/
+@media screen and (min-width:992px){
+    h1{
+        font-size: 80px;
+    }
+    
+}
+
+/*Dispositivos LG*/
+@media screen and (min-width:992px){
+    h1{
+        font-size: 100px;
+    }
+}
