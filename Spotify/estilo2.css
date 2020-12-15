@@ -1,4 +1,4 @@
-/*
+
 @media screen and (max-width: 767px){
     body{
         background: red;
@@ -27,7 +27,7 @@
         background: black;
         color: white
     };
-}*/
+}
 
 .item{
     width: 200px;
