@@ -7,15 +7,17 @@
 
 ## :computer: Web Screenshot
 <div style="display: flex; align-items: 'center'; flex-direction: 'row';" >
- <img src="Prints/lead.png" width="400" height="210">  
- <img src="Prints/conteudo.png" width="400" height="210">
+ <img src="Prints/lead.png" width="450" height="225">  
+ <img src="Prints/conteudo.png" width="450" height="225">
 </div>
 <div style="display: flex; align-items: 'center'; flex-direction: 'row';" >
- <img src="Prints/recursos.png" width="400" height="210">  
- <img src="Prints/footer.png" width="400" height="210">
+ <img src="Prints/recursos.png" width="450" height="225">  
+ <img src="Prints/footer.png" width="450" height="225">
 </div>
 
 ## For this project I used:
 * HTML5
 * CSS3
 * Bootstrap
+
+:bulb: Fique à vontade para fazer issues e colaborar no projeto, estou disposto a avaliar pull requests!
