@@ -1,5 +1,5 @@
 # Spotify-landingpage
- > :rocket: In order to improve my Front End development techinics, I decided to create this clone project from Spotify's main page. 
+ > :rocket: In order to improve my Front End development technics, I decided to create this clone project from Spotify's main page. 
  
 <p align ="center">
  <img src="Spotify/imagens/favicon.png" width="50">
